@@ -1,5 +1,5 @@
-import TelegramApi from "node-telegram-bot-api";
-import { gameOptions, restartGameOptions } from './options.js';
+const TelegramApi = require('node-telegram-bot-api');
+const { gameOptions, restartGameOptions } = require('./options.js');
 
 const token = process.env.BOT_TOKEN;
 
